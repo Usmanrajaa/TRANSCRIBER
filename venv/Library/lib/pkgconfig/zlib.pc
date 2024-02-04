@@ -1,0 +1,13 @@
+prefix=G:/My Drive/ML PROJECT/TRANSCRIBE/venv/Library
+exec_prefix=G:/My Drive/ML PROJECT/TRANSCRIBE/venv/Library
+libdir=G:/My Drive/ML PROJECT/TRANSCRIBE/venv/Library/lib
+sharedlibdir=G:/My Drive/ML PROJECT/TRANSCRIBE/venv/Library/lib
+includedir=G:/My Drive/ML PROJECT/TRANSCRIBE/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
